@@ -5,14 +5,14 @@
 
 El desarrollo del proyecto Polilop v2.0 se estructura en **4 fases principales** que abarcan desde la fase de investigación hasta el despliegue piloto. El proyecto incluye tres componentes principales: dispositivo escáner autónomo, aplicación móvil Android, y dashboard web administrativo.
 
-**Fecha de inicio**: 1 de agosto de 2024
+**Fecha de inicio**: 21 de julio de 2025
 **Duración estimada**: 24 semanas (6 meses)
-**Fecha estimada de finalización**: 31 de enero de 2025
+**Fecha estimada de finalización**: 17 de enero de 2026
 
 ---
 
 ## Fase 1: Investigación y especificaciones (3 semanas)
-**Período**: 1 de agosto - 22 de agosto de 2024
+**Período**: 21 de julio - 11 de agosto de 2025
 
 ### 🔬 Investigación técnica (Paralelo)
 - **Semana 1**: Evaluación intensiva SQLite vs JSON
@@ -39,7 +39,7 @@ El desarrollo del proyecto Polilop v2.0 se estructura en **4 fases principales**
 ---
 
 ## Fase 2: Desarrollo de firmware y hardware (7 semanas)
-**Período**: 22 de agosto - 10 de octubre de 2024
+**Período**: 11 de agosto - 29 de septiembre de 2025
 
 ### 🔧 Desarrollo de hardware (5 semanas - Intensivo)
 - **Semana 1-2**: Diseño acelerado de esquemáticos y PCB
@@ -90,7 +90,7 @@ El desarrollo del proyecto Polilop v2.0 se estructura en **4 fases principales**
 ---
 
 ## Fase 3: Desarrollo de aplicaciones (8 semanas)
-**Período**: 10 de octubre - 5 de diciembre de 2024
+**Período**: 29 de septiembre - 24 de noviembre de 2025
 
 ### 📱 Aplicación móvil Android (5 semanas - Intensivo)
 - **Semana 1-2**: Base y BLE con desarrollo paralelo UI
@@ -140,7 +140,7 @@ El desarrollo del proyecto Polilop v2.0 se estructura en **4 fases principales**
 ---
 
 ## Fase 4: Testing, optimización y piloto (6 semanas)
-**Período**: 5 de diciembre de 2024 - 16 de enero de 2025
+**Período**: 24 de noviembre de 2025 - 5 de enero de 2026
 
 ### 🧪 Testing integral (3 semanas)
 - **Semana 1**: Testing de hardware
@@ -209,13 +209,13 @@ El desarrollo del proyecto Polilop v2.0 se estructura en **4 fases principales**
 
 | Fecha | Hito | Descripción |
 |-------|------|-------------|
-| 22 ago 2024 | ✅ Especificaciones finalizadas | Decisiones técnicas tomadas |
-| 10 oct 2024 | 🔧 Prototipos hardware listos | Primeros dispositivos funcionales |
-| 10 oct 2024 | 💻 Firmware v1.0 completado | Funcionalidades core implementadas |
-| 14 nov 2024 | 📱 App móvil beta | Aplicación Android funcional |
-| 5 dic 2024 | 🌐 Dashboard web v1.0 | Sistema web completo |
-| 16 ene 2025 | 🧪 Testing completado | Validación integral finalizada |
-| 31 ene 2025 | 🚀 Piloto desplegado | Sistema listo para uso operativo |
+| 11 ago 2025 | ✅ Especificaciones finalizadas | Decisiones técnicas tomadas |
+| 29 sep 2025 | 🔧 Prototipos hardware listos | Primeros dispositivos funcionales |
+| 29 sep 2025 | 💻 Firmware v1.0 completado | Funcionalidades core implementadas |
+| 3 nov 2025 | 📱 App móvil beta | Aplicación Android funcional |
+| 24 nov 2025 | 🌐 Dashboard web v1.0 | Sistema web completo |
+| 5 ene 2026 | 🧪 Testing completado | Validación integral finalizada |
+| 17 ene 2026 | 🚀 Piloto desplegado | Sistema listo para uso operativo |
 
 ---
 

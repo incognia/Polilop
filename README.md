@@ -381,35 +381,35 @@ gantt
     axisFormat %d %b
     
     section Fase 1 Investigacion
-    Evaluacion y decisiones          :active, research1, 2024-08-01, 2024-08-22
+    Evaluacion y decisiones          :active, research1, 2025-07-21, 2025-08-11
     
     section Fase 2 Hardware y Firmware
-    Desarrollo hardware             :hw1, 2024-08-22, 2024-09-26
-    Fabricacion prototipos          :hw2, 2024-09-26, 2024-10-10
+    Desarrollo hardware             :hw1, 2025-08-11, 2025-09-15
+    Fabricacion prototipos          :hw2, 2025-09-15, 2025-09-29
     
-    Configuracion base firmware    :fw1, 2024-08-22, 2024-09-26
-    Funcionalidades core            :fw2, 2024-09-26, 2024-10-10
-    Configuracion BLE               :fw3, 2024-10-10, 2024-10-24
+    Configuracion base firmware    :fw1, 2025-08-11, 2025-09-15
+    Funcionalidades core            :fw2, 2025-09-15, 2025-09-29
+    Configuracion BLE               :fw3, 2025-09-29, 2025-10-13
     
     section Fase 3 Aplicaciones
-    App Android                     :app1, 2024-10-10, 2024-11-14
+    App Android                     :app1, 2025-09-29, 2025-11-03
     
-    Dashboard web                   :web1, 2024-10-10, 2024-12-05
-    Integracion completa            :web2, 2024-12-05, 2024-12-19
+    Dashboard web                   :web1, 2025-09-29, 2025-11-24
+    Integracion completa            :web2, 2025-11-24, 2025-12-08
     
     section Fase 4 Testing y Piloto
-    Testing hardware                :test1, 2024-12-05, 2024-12-12
-    Testing software                :test2, 2024-12-12, 2024-12-19
-    Preparacion del piloto          :pilot1, 2024-12-19, 2025-01-09
-    Despliegue piloto               :milestone, pilot2, 2025-01-16, 2025-01-16
+    Testing hardware                :test1, 2025-11-24, 2025-12-01
+    Testing software                :test2, 2025-12-01, 2025-12-08
+    Preparacion del piloto          :pilot1, 2025-12-08, 2026-01-05
+    Despliegue piloto               :milestone, pilot2, 2026-01-17, 2026-01-17
 
     section Hitos Principales
-    Especificaciones finalizadas    :milestone, mile1, 2024-08-22, 2024-08-22
-    Prototipos hardware listos      :milestone, mile2, 2024-10-10, 2024-10-10
-    Firmware v1.0 completado        :milestone, mile3, 2024-10-10, 2024-10-10
-    App movil beta                  :milestone, mile4, 2024-11-14, 2024-11-14
-    Dashboard web v1.0              :milestone, mile5, 2024-12-05, 2024-12-05
-    Piloto completado               :milestone, mile6, 2025-01-16, 2025-01-16
+    Especificaciones finalizadas    :milestone, mile1, 2025-08-11, 2025-08-11
+    Prototipos hardware listos      :milestone, mile2, 2025-09-29, 2025-09-29
+    Firmware v1.0 completado        :milestone, mile3, 2025-09-29, 2025-09-29
+    App movil beta                  :milestone, mile4, 2025-11-03, 2025-11-03
+    Dashboard web v1.0              :milestone, mile5, 2025-11-24, 2025-11-24
+    Piloto completado               :milestone, mile6, 2026-01-17, 2026-01-17
 ```
 
 ### Resumen del cronograma
@@ -426,8 +426,8 @@ gantt
 ## Estado del proyecto
 
 🚧 **En desarrollo inicial** - Versión 2.0  
-📅 **Inicio**: 1 de agosto de 2024  
-🎯 **Objetivo**: 31 de enero de 2025  
+📅 **Inicio**: 21 de julio de 2025
+🎯 **Objetivo**: 17 de enero de 2026
 ⏱️ **Duración estimada**: 24 semanas (6 meses)
 
 ---
