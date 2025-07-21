@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.1] - 2025-07-21
+
+### Changed
+- Updated project timeline to 2025-2026 dates maintaining 6-month duration
+- Synchronized ROADMAP.md with current timeline (Jul 21, 2025 - Jan 17, 2026)
+- Updated all phase dates and milestone schedules in ROADMAP.md
+- Aligned Gantt chart in README.md with updated project dates
+- Updated project status dates to reflect current timeline
+- Fixed table formatting issues in milestone tables
+- Enhanced chronological consistency between README.md and ROADMAP.md
+
 ## [0.3.0] - 2025-07-21
 
 ### Added
