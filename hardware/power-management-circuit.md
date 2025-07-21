@@ -28,10 +28,10 @@ VBat (4.2V) ──┬─── R1 (10kΩ) ──┬─── ADC_PIN (GPIO36)
 $$\text{Factor de división} = \frac{R2}{R1+R2} = \frac{39k}{10k+39k} \approx 0.795$$
 
 **Voltaje ADC máximo:**
-$$V_{max,ADC} = V_{bat,max} \times \text{Factor de división} = 4.2V \times 0.795 = 3.34V$$ (dentro del rango)
+$$V_{\text{max,ADC}} = V_{\text{bat,max}} \times \text{Factor de división} = 4.2V \times 0.795 = 3.34V$$ (dentro del rango)
 
 **Voltaje ADC al 2%:**
-$$V_{ADC,2\%} = V_{bat,2\%} \times \text{Factor de división} = 3.40V \times 0.795 \approx 2.70V$$
+$$V_{\text{ADC,2\%}} = V_{\text{bat,2\%}} \times \text{Factor de división} = 3.40V \times 0.795 \approx 2.70V$$
 
 #### Filtro de estabilización
 - **Condensador**: 100nF cerámico entre ADC_PIN y GND
