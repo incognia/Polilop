@@ -21,8 +21,8 @@ graph TD;
     A[Scan WiFi Networks] --> B[Test Connection Quality];
     B --> C[Evaluate Signal & Cost];
     C --> D{Decision};
-    D -->|Use Cellular| E[Cellular Connection (5G/4G/3G)];
-    D -->|Use WiFi| F[WiFi Connection (Known/Open)];
+    D -->|Use Cellular| E["Cellular Connection (5G/4G/3G)"];
+    D -->|Use WiFi| F["WiFi Connection (Known/Open)"];
 ```
 
 ## Almacenamiento local y cola de sincronización
