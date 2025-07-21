@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.3] - 2025-07-21
+
+### Changed
+- Cleaned up README.md badges, keeping only essential ones (version/status, licensing, tech stack)
+- Removed operational badges (timeline, duration, battery life, connectivity specs)
+- Removed redundant badges (open hardware/source badges, duplicating license info)
+- Organized remaining badges in clear logical groups for better readability
+- Streamlined badge section to focus on core project information
+
 ## [0.3.2] - 2025-07-21
 
 ### Added
