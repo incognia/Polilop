@@ -1,0 +1,79 @@
+POLILOP v2.0 - DUAL LICENSE
+
+This project uses dual licensing:
+
+===============================================================================
+HARDWARE COMPONENTS
+===============================================================================
+
+Hardware designs, schematics, PCB layouts, 3D models, and related documentation
+are licensed under:
+
+CERN Open Hardware Licence Version 2.0 - Weakly Reciprocal
+
+Full license text available at: https://ohwr.org/cern_ohl_w_v2.txt
+
+Copyright (c) 2024 Rodrigo Álvarez (incognia@gmail.com)
+
+This source describes Open Hardware and is licensed under the CERN-OHL-W v2.
+You may redistribute and modify this source and make products using it under
+the terms of the CERN-OHL-W v2 (https://ohwr.org/cern_ohl_w_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-W v2 for applicable conditions.
+
+Source location: https://github.com/incognia/Polilop
+
+As per CERN-OHL-W v2 section 4.1, should You produce hardware based on this
+source, You must maintain the Source Location information on any packaging and,
+where practicable, on the hardware itself.
+
+===============================================================================
+SOFTWARE COMPONENTS
+===============================================================================
+
+Firmware, mobile applications, web applications, APIs, databases, and related
+software components are licensed under:
+
+GNU GENERAL PUBLIC LICENSE Version 3
+
+Full license text available at: https://www.gnu.org/licenses/gpl-3.0.txt
+
+Copyright (C) 2024 Rodrigo Álvarez (incognia@gmail.com)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+===============================================================================
+DOCUMENTATION
+===============================================================================
+
+Documentation files (*.md, manuals, guides) are licensed under:
+
+Creative Commons Attribution-ShareAlike 4.0 International License
+
+Full license text available at: https://creativecommons.org/licenses/by-sa/4.0/
+
+This allows others to distribute, remix, adapt, and build upon the material
+in any medium or format, so long as attribution is given to the creator.
+
+===============================================================================
+
+Project: Polilop v2.0 - Sistema integral de seguimiento postal
+Author: Rodrigo Álvarez (@incognia)
+Email: incognia@gmail.com
+Repository: https://github.com/incognia/Polilop
+
+This project is designed for public administration use, specifically for
+Correos de México, as part of technological modernization initiatives.
