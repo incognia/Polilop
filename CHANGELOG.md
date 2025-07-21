@@ -18,35 +18,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive documentation of connectivity power management in `docs/power-management.md`
 
 ### Changed
-- Updated README.md with intelligent connectivity power management information
-- Enhanced power management documentation with technical specifications
+- Updated README.md with intelligent connectivity power management information (23:36)
+- Enhanced power management documentation with technical specifications (23:37)
 
-## [0.2.1] - 2025-07-20
+## [0.2.2] - 2025-07-20 22:57
 
 ### Fixed
 - Correct Mermaid diagram syntax in connectivity-sync.md
+
+## [0.2.1] - 2025-07-20 22:51
+
+### Fixed
 - Correct LaTeX formula syntax in power management circuit documentation
 
-## [0.2.0] - 2025-07-20
+## [0.2.0] - 2025-07-20 22:44-22:47
 
 ### Added
-- Complete project structure with .gitkeep files
-- Comprehensive dual licensing (CERN OHL v2.0 for hardware, GPL v3.0 for software)
+- Comprehensive dual licensing system (CERN OHL v2.0 for hardware, GPL v3.0 for software) (22:44)
+- Complete project structure with .gitkeep files (22:46-22:47)
 - Project directories for API, database, firmware, hardware components, tests, and tools
+- Hardware subdirectories: 3d-models, assembly, BOM, schematics
 
-## [0.1.0] - 2025-07-20
+## [0.1.3] - 2025-07-20 22:20-22:30
+
+### Added
+- Battery analysis and calculations documentation (`docs/battery-analysis.md`) (22:20)
+- Project roadmap and development timeline (`ROADMAP.md`) (22:30)
+
+## [0.1.2] - 2025-07-20 22:04
+
+### Added
+- Hardware design overview documentation (`hardware/README.md`)
+
+## [0.1.1] - 2025-07-20 21:28-21:45
+
+### Added
+- Bluetooth configuration protocols (`docs/bluetooth-configuration.md`) (21:28)
+- System architecture documentation (`docs/system-architecture.md`) (21:34)
+- PCB conceptual diagrams (`hardware/pcb/conceptual-diagram.md`) (21:45)
+
+## [0.1.0] - 2025-07-20 21:03
 
 ### Added
 - Initial project setup for Polilop v2.0 postal tracking system
-- Core documentation structure
-- System architecture documentation (`docs/system-architecture.md`)
-- Power management system documentation (`docs/power-management.md`)
-- Battery analysis and calculations (`docs/battery-analysis.md`)
-- Bluetooth configuration protocols (`docs/bluetooth-configuration.md`)
-- Connectivity and synchronization policies (`docs/connectivity-sync.md`)
-- Hardware design documentation (`hardware/README.md`)
 - Modular hardware design specifications (`hardware/modular-design.md`)
-- PCB conceptual diagrams (`hardware/pcb/conceptual-diagram.md`)
-- Power management circuit designs (`hardware/power-management-circuit.md`)
-- Project roadmap and development timeline (`ROADMAP.md`)
-- Comprehensive README with system overview and technical specifications
+- Core documentation structure foundation
