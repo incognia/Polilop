@@ -1,5 +1,25 @@
 # Polilop - Sistema integral de seguimiento postal v2.0
 
+[![Version](https://img.shields.io/badge/version-v2.0-blue.svg)](https://github.com/incognia/Polilop)
+[![Development Status](https://img.shields.io/badge/status-in%20development-yellow.svg)](https://github.com/incognia/Polilop)
+[![Timeline](https://img.shields.io/badge/timeline-Jul%202025%20--%20Jan%202026-green.svg)](https://github.com/incognia/Polilop/blob/main/ROADMAP.md)
+[![Duration](https://img.shields.io/badge/duration-24%20weeks%20(6%20months)-brightgreen.svg)](https://github.com/incognia/Polilop/blob/main/ROADMAP.md)
+
+[![Hardware License](https://img.shields.io/badge/hardware%20license-CERN%20OHL%20v2.0-orange.svg)](https://github.com/incognia/Polilop/blob/main/LICENSE)
+[![Software License](https://img.shields.io/badge/software%20license-GPL%20v3.0-red.svg)](https://github.com/incognia/Polilop/blob/main/LICENSE)
+[![Open Hardware](https://img.shields.io/badge/open%20hardware-yes-brightgreen.svg)](https://www.oshwa.org/)
+[![Open Source](https://img.shields.io/badge/open%20source-yes-brightgreen.svg)](https://opensource.org/)
+
+[![ESP32](https://img.shields.io/badge/MCU-ESP32-lightblue.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![MicroPython](https://img.shields.io/badge/firmware-MicroPython-blue.svg)](https://micropython.org/)
+[![Android](https://img.shields.io/badge/mobile-Android%208.0+-green.svg)](https://developer.android.com/)
+[![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL%2FPostGIS-blue.svg)](https://postgresql.org/)
+
+[![Autonomous Operation](https://img.shields.io/badge/operation-autonomous-purple.svg)](https://github.com/incognia/Polilop/blob/main/docs/system-architecture.md)
+[![Battery Life](https://img.shields.io/badge/battery-15%20hours-yellow.svg)](https://github.com/incognia/Polilop/blob/main/docs/battery-analysis.md)
+[![Connectivity](https://img.shields.io/badge/connectivity-5G%2F4G%2F3G%2FWiFi%2FBLE-lightgreen.svg)](https://github.com/incognia/Polilop/blob/main/docs/connectivity-sync.md)
+[![Power Management](https://img.shields.io/badge/power%20mgmt-intelligent-orange.svg)](https://github.com/incognia/Polilop/blob/main/docs/power-management.md)
+
 ## Descripción del proyecto
 
 Polilop es un **sistema integral** de hardware libre y software GNU diseñado para la administración pública, específicamente para Correos de México. El sistema permite el seguimiento completo de paquetes y correspondencia desde la oficina postal hasta su entrega final, con capacidades avanzadas de georeferenciación y análisis de tiempos de entrega.
