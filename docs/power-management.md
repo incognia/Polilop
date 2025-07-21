@@ -1,3 +1,150 @@
+## Gestión inteligente de energía para conectividad
+
+### Descripción del sistema
+
+El sistema de gestión inteligente de energía para el módulo de conectividad está diseñado para incrementar la autonomía, encendiendo el módulo sólo cuando hay nuevas lecturas y manteniéndolo en modo activo o en espera según la actividad reciente.
+
+### Estados del sistema
+
+1. **DORMANT (Reposo):** Módulo de conectividad apagado por completo.
+2. **ACTIVE (Activo):** Módulo encendido y transmitiendo datos.
+3. **STANDBY (Espera):** Módulo en espera, esperando nuevas lecturas.
+
+### Transiciones entre estados
+
+- **DORMANT → ACTIVE:** Cuando se detecta una nueva lectura.
+- **ACTIVE → STANDBY:** Después de transmitir exitosamente.
+- **STANDBY → ACTIVE:** Si hay nuevas lecturas dentro del tiempo de espera configurado.
+- **STANDBY → DORMANT:** Si no hay actividad durante el tiempo de espera.
+
+### Parámetros configurables
+
+- **Timeout de standby:** Tiempo que permanece en espera (ej: 2-5 minutos).
+- **Batch timeout:** Tiempo máximo para agrupar múltiples lecturas.
+- **Wake-up interval:** Intervalos de verificación de conectividad (opcional).
+
+### Beneficios
+
+Este enfoque asegura que el consumo de batería se minimice al mantener el módulo de conectividad apagado cuando no es necesario, lo que maximiza la autonomía del dispositivo.
+
+### Implementación técnica
+
+#### Estados y transiciones
+
+```mermaid
+graph TB
+    A[DORMANT] -->|Nueva lectura| B[ACTIVE]
+    B -->|Transmisión exitosa| C[STANDBY]
+    C -->|Nueva lectura dentro del timeout| B
+    C -->|Timeout sin actividad| A
+    B -->|Error crítico| A
+    
+    style A fill:#f9f9f9
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+```
+
+#### Especificaciones de consumo
+
+| Estado | Consumo WiFi | Consumo Celular | Duración típica |
+|--------|--------------|-----------------|------------------|
+| DORMANT | 0 mA | 0 mA | Indefinido |
+| ACTIVE | ~150-200 mA | ~300-500 mA | 5-15 segundos |
+| STANDBY | ~20-30 mA | ~50-80 mA | 2-5 minutos |
+
+#### Algoritmo de gestión
+
+```python
+class ConnectivityPowerManager:
+    def __init__(self):
+        self.state = 'DORMANT'
+        self.standby_timeout = 300  # 5 minutos
+        self.batch_timeout = 30     # 30 segundos
+        self.last_activity = 0
+    
+    def on_new_scan(self, scan_data):
+        if self.state == 'DORMANT':
+            self.activate_connectivity()
+        elif self.state == 'STANDBY':
+            self.state = 'ACTIVE'
+        
+        self.queue_for_transmission(scan_data)
+        self.last_activity = time.time()
+    
+    def on_transmission_complete(self):
+        if self.state == 'ACTIVE':
+            self.state = 'STANDBY'
+            self.schedule_timeout_check()
+    
+    def check_timeout(self):
+        if self.state == 'STANDBY':
+            if time.time() - self.last_activity > self.standby_timeout:
+                self.deactivate_connectivity()
+```
+
+### Parámetros optimizados
+
+#### Configuración por defecto
+
+- **Standby timeout**: 300 segundos (5 minutos)
+  - Balanza entre ahorro de energía y capacidad de respuesta
+  - Permite agrupar múltiples escaneos subsecuentes
+
+- **Batch timeout**: 30 segundos  
+  - Tiempo máximo para agrupar transmisiones
+  - Evita demoras excesivas en sincronización
+
+- **Wake-up verification**: Cada 2 horas (opcional)
+  - Verificación periódica de conectividad
+  - Solo si hay datos pendientes de sincronización
+
+#### Configuración avanzada (personalizable)
+
+- **Modo agresivo**: Standby timeout 60 segundos
+  - Mayor ahorro de energía
+  - Para uso con baja frecuencia de escaneos
+
+- **Modo responsivo**: Standby timeout 600 segundos (10 minutos)
+  - Mayor capacidad de respuesta
+  - Para uso con alta frecuencia de escaneos
+
+### Estimación de ahorro energético
+
+#### Escenario típico (8 horas de trabajo)
+
+**Sin gestión inteligente:**
+- Módulo celular activo 8 horas: 400mA × 8h = 3,200mAh
+- Consumo total estimado: ~4,000mAh
+
+**Con gestión inteligente:**
+- Estado ACTIVE (20 activaciones × 10s): 400mA × 0.056h = 22mAh
+- Estado STANDBY (20 períodos × 5min): 80mA × 1.67h = 133mAh
+- Estado DORMANT (resto del tiempo): 0mA × 6.3h = 0mAh
+- **Consumo total estimado: 155mAh**
+
+**Ahorro energético: ~95% en conectividad celular**
+
+#### Impacto en autonomía total
+
+- **Sin gestión**: Autonomía ~10-12 horas
+- **Con gestión**: Autonomía ~18-22 horas
+- **Incremento**: +60-80% de autonomía
+
+### Consideraciones de implementación
+
+#### Hardware requerido
+
+- **GPIO de control**: Pines para encender/apagar módulos
+- **Circuitos de switch**: Relés o MOSFETs para corte de alimentación
+- **Sensores de estado**: Feedback del estado de los módulos
+
+#### Software requerido
+
+- **Estado machine**: Gestión de transiciones de estado
+- **Timer manager**: Gestión de timeouts y programación
+- **Queue manager**: Cola de transmisiones pendientes
+- **Power monitor**: Monitoreo de consumo energético
+
 # Gestión de energía - Sistema de protección contra corrupción de datos
 
 ## Descripción del sistema

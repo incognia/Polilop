@@ -224,6 +224,10 @@ sequenceDiagram
 6. **Verificación**: Confirma recepción y marca como sincronizado
 7. **Reintentos adaptativos**: Backoff exponencial con límites por tipo de red
 
+**Gestión inteligente del módulo de conectividad:**
+
+Se ha implementado un sistema para aumentar la autonomía del dispositivo apagando el módulo de conectividad cuando no hay nuevas lecturas y gestionando su estado entre activo y en espera según la actividad reciente. Para más detalles, consulta la [documentación de gestión de energía](docs/power-management.md).
+
 ### 3. Gestión inteligente de energía
 
 **🔋 Sistema de protección contra corrupción de datos:**
