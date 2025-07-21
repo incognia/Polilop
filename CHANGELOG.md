@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.5] - 2025-07-21
+
+### Added
+- Resumen ejecutivo completo del proyecto Polilop v2.0 en español mexicano
+- Documento ejecutivo estructurado en 8 secciones principales más conclusiones
+- Síntesis comprehensiva de todos los componentes del sistema
+- Overview de características técnicas, arquitectura y roadmap del proyecto
+
 ## [0.3.4] - 2025-07-21
 
 ### Added
