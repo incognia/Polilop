@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.4] - 2025-07-21
+
+### Added
+- Background section in README.md comparing existing closed-source Polilop device with proposed open-source solution
+- Context explaining limitations of current Windows-dependent USB-Micro cable synchronization system
+- Comparison highlighting advantages of new wireless connectivity, platform independence, and open-source approach
+
 ## [0.3.3] - 2025-07-21
 
 ### Changed

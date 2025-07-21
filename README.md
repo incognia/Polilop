@@ -11,6 +11,18 @@
 [![Android](https://img.shields.io/badge/mobile-Android%208.0+-green.svg)](https://developer.android.com/)
 [![PostgreSQL](https://img.shields.io/badge/database-PostgreSQL%2FPostGIS-blue.svg)](https://postgresql.org/)
 
+## Antecedentes
+
+El dispositivo actual de Polilop
+- **Código cerrado**: Software propietario limita la extensibilidad e integración.
+- **Sin módulo de conectividad**: Requiere sincronización manual de datos.
+- **Dependiente de Windows**: Necesita una aplicación en Windows para la transferencia de datos vía cable USB-Micro.
+
+Sistema Polilop propuesto
+- **Código abierto**: Fomenta colaboración y personalización dentro de una comunidad más amplia.
+- **Conectividad avanzada**: Incluye Wi-Fi, celular y Bluetooth para una sincronización sin contratiempos.
+- **Independencia de plataforma**: Operable en varias plataformas sin dependencias específicas de hardware.
+
 ## Descripción del proyecto
 
 Polilop es un **sistema integral** de hardware libre y software GNU diseñado para la administración pública, específicamente para Correos de México. El sistema permite el seguimiento completo de paquetes y correspondencia desde la oficina postal hasta su entrega final, con capacidades avanzadas de georeferenciación y análisis de tiempos de entrega.
