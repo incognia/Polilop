@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.2] - 2025-07-21
+
+### Added
+- Comprehensive project badges to README.md header for enhanced project presentation
+- Project status badges (version, development status, timeline, duration)
+- Licensing badges for dual CERN OHL v2.0 and GPL v3.0 licenses
+- Open hardware and open source certification badges
+- Technology stack badges (ESP32, MicroPython, Android 8.0+, PostgreSQL/PostGIS)
+- Device feature badges (autonomous operation, 15-hour battery life, multi-connectivity)
+- Intelligent power management badge linking to technical documentation
+- Active links from badges to relevant documentation files for easy navigation
+- Organized badge layout in logical groups for improved readability
+
 ## [0.3.1] - 2025-07-21
 
 ### Changed
